@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 return;
             // 手机号码输入达到11位，或者密码/验证码输入达到6位，都关闭输入法软键盘
             if ((mStr.length() == 11 && mMaxLength == 11) ||
-                    (mStr.length() == 6 && mMaxLength == 6)) {
+                    (mStr.length() == 8 && mMaxLength == 8)) {
                 ViewUtil.hideOneInputMethod(MainActivity.this, mView);
             }
         }
